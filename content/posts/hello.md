@@ -14,7 +14,7 @@ description = "\"Hello, friend?\" That's lame. Maybe I should give you a name?"
 > Shit.
 > It's actually happened.
 > I'm talking to an imaginary person.
->
+> But for now it's done
 > **— Mr. Robot S01E01**
 
 
