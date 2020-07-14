@@ -31,4 +31,4 @@ jobs:
           user_name: maurogabriel
           user_email: maurogabriel@gmail.com
           publish_branch: master
-        #   cname: example.com
+          cname: maurogabriel.com.ar
