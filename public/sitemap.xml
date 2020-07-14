@@ -3,35 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://maurogabriel.com.ar/about/</loc>
     <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/hello/</loc>
+    <loc>https://maurogabriel.com.ar/posts/hello/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://maurogabriel.com.ar/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>https://maurogabriel.com.ar/posts/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/archive/</loc>
+    <loc>https://maurogabriel.com.ar/archive/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://maurogabriel.com.ar/categories/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://maurogabriel.com.ar/tags/</loc>
   </url>
   
 </urlset>
