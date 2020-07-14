@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://maurogabriel.com.ar"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
