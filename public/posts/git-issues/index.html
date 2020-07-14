@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Your branch is ahead of Origin/Master by X Commits :: Mauro Gabriel — A simple blog to share</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Imagina el siguiente escenario. Al momento de aplicar los cambios en el servidor de producción verificas el estado actual del repositorio local antes de traer los cambios hechos en tu repositorio en remoto y te das cuenta de que tu rama local se encuentra por delante de la rama ‘origin/master’ tal como se muestra a continuación.
+git status # On branch master # Your branch is ahead of &#39;origin/master&#39; by X commits."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://maurogabriel.com.ar/posts/git-issues/" />
+
+
+
+
+
+<link rel="stylesheet" href="https://maurogabriel.com.ar/assets/style.css">
+
+
+<link rel="stylesheet" href="https://maurogabriel.com.ar/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://maurogabriel.com.ar/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://maurogabriel.com.ar/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Your branch is ahead of Origin/Master by X Commits"/>
+<meta name="twitter:description" content="Imagina el siguiente escenario. Al momento de aplicar los cambios en el servidor de producción verificas el estado actual del repositorio local antes de traer los cambios hechos en tu repositorio en remoto y te das cuenta de que tu rama local se encuentra por delante de la rama ‘origin/master’ tal como se muestra a continuación.
+git status # On branch master # Your branch is ahead of &#39;origin/master&#39; by X commits."/>
+
+
+
+<meta property="og:title" content="Your branch is ahead of Origin/Master by X Commits" />
+<meta property="og:description" content="Imagina el siguiente escenario. Al momento de aplicar los cambios en el servidor de producción verificas el estado actual del repositorio local antes de traer los cambios hechos en tu repositorio en remoto y te das cuenta de que tu rama local se encuentra por delante de la rama ‘origin/master’ tal como se muestra a continuación.
+git status # On branch master # Your branch is ahead of &#39;origin/master&#39; by X commits." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://maurogabriel.com.ar/posts/git-issues/" />
+<meta property="article:published_time" content="2020-07-12T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-07-12T00:00:00+00:00" /><meta property="og:site_name" content="Mauro Gabriel" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">mauro gabriel</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/archive">Archive</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/archive">Archive</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post">
+    <h1 class="post-title"><a href="https://maurogabriel.com.ar/posts/git-issues/">Your branch is ahead of Origin/Master by X Commits</a></h1>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2020-07-12
+        </span>
+
+        
+          
+        
+      
+
+      <span class="post-author">— Written by Mauro</span>
+      
+    </div>
+
+    
+
+    
+
+    <div class="post-content">
+      
+      <p>Imagina el siguiente escenario. Al momento de aplicar los cambios en el servidor de producción verificas el estado actual del repositorio local antes de traer los cambios hechos en tu repositorio en remoto y te das cuenta de que tu rama local se encuentra por delante de la rama ‘origin/master’ tal como se muestra a continuación.</p>
+<pre><code>git status
+# On branch master
+# Your branch is ahead of 'origin/master' by X commits.
+# (use &quot;git push&quot; to publish your local commits)
+nothing to commit, working directory clean
+</code></pre><p>Esto suele suceder debido a que hay cambios hechos en el repositorio del servidor de producción y no los haz enviado a tu repositorio remoto (GitHUB O BitBucket).</p>
+<p>Si deseas mantener esos cambios pero actualizar tu repositorio local utiliza el siguiente comando:</p>
+<pre><code>git fetch
+</code></pre><p>Recupera(fetch) objetos y referencias descargándolas desde un repositorio remoto</p>
+<p>Nota: Al intentar hacer de nuevo “push” si no envías los cambios a tu repositorio remoto persistirá el problema.</p>
+<p>Si lo que deseas es eliminar esos cambios y solo dejar los que vienen de tu repositorio remoto utiliza:</p>
+<pre><code>git fetch -p 
+</code></pre><p>Descripción:
+Antes de recuperar, remueve cualquier referencia de seguimiento que no se exista en el repositorio remoto</p>
+<p>Así al hacer de nuevo “git pull origin” master no tendremos de nuevo el mismo inconveniente incremental “Your branch is ahead of <code>origin/master</code> by X commits”.</p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Read other posts</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+            
+              <span class="button next">
+                <a href="https://maurogabriel.com.ar/posts/hugo-setup-deploy-github-actions/">
+                  <span class="button__text">Your branch is ahead of Origin/Master by X Commits</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">@ 2020 Mauro Gabriel</div>
+    
+  </div>
+</footer>
+
+<script src="https://maurogabriel.com.ar/assets/main.js"></script>
+<script src="https://maurogabriel.com.ar/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

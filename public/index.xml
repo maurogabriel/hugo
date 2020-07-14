@@ -10,7 +10,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>@ 2020 Mauro Gabriel</copyright>
-    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://maurogabriel.com.ar/index.xml" rel="self" type="application/rss+xml" />
     
@@ -32,6 +32,48 @@
           Hi there My name is Radek and I&amp;rsquo;m the author of this theme. I made it to help you present your ideas easier.
 We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
 This theme is pretty basic and covers all of the essentials. All you have to do is start typing!
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Your branch is ahead of Origin/Master by X Commits</title>
+      <link>https://maurogabriel.com.ar/posts/git-issues/</link>
+      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurogabriel.com.ar/posts/git-issues/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Imagina el siguiente escenario. Al momento de aplicar los cambios en el servidor de producción verificas el estado actual del repositorio local antes de traer los cambios hechos en tu repositorio en remoto y te das cuenta de que tu rama local se encuentra por delante de la rama ‘origin/master’ tal como se muestra a continuación.
+git status # On branch master # Your branch is ahead of &#39;origin/master&#39; by X commits.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Your branch is ahead of Origin/Master by X Commits</title>
+      <link>https://maurogabriel.com.ar/posts/hugo-setup-deploy-github-actions/</link>
+      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurogabriel.com.ar/posts/hugo-setup-deploy-github-actions/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Imagina el siguiente escenario. Al momento de aplicar los cambios en el servidor de producción verificas el estado actual del repositorio local antes de traer los cambios hechos en tu repositorio en remoto y te das cuenta de que tu rama local se encuentra por delante de la rama ‘origin/master’ tal como se muestra a continuación.
+git status # On branch master # Your branch is ahead of &#39;origin/master&#39; by X commits.
           
         
         </description>
