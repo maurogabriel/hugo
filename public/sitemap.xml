@@ -8,22 +8,27 @@
   </url>
   
   <url>
+    <loc>https://maurogabriel.com.ar/posts/hugo-setup-deploy-github-actions/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maurogabriel.com.ar/posts/introduction-to-hugo-templating/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://maurogabriel.com.ar/</loc>
-    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://maurogabriel.com.ar/posts/</loc>
-    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://maurogabriel.com.ar/posts/git-issues/</loc>
-    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://maurogabriel.com.ar/posts/hugo-setup-deploy-github-actions/</loc>
     <lastmod>2020-07-12T00:00:00+00:00</lastmod>
   </url>
   

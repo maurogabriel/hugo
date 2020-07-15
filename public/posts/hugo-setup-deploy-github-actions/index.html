@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
     
-      <title>Your branch is ahead of Origin/Master by X Commits :: Mauro Gabriel — A simple blog to share</title>
+      <title>Hugo: Setup and Deploy Site using GitHub Actions :: Mauro Gabriel — A simple blog to share</title>
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="description" content="Imagina el siguiente escenario. Al momento de aplicar los cambios en el servidor de producción verificas el estado actual del repositorio local antes de traer los cambios hechos en tu repositorio en remoto y te das cuenta de que tu rama local se encuentra por delante de la rama ‘origin/master’ tal como se muestra a continuación.
-git status # On branch master # Your branch is ahead of &#39;origin/master&#39; by X commits."/>
+<meta name="description" content="Si estas usando HUGO para generar tu blog, proyecto o sitio web seguro estás familiarizado con la línea de comando para construir y testear tu sitio en de forma local para luego subirlo con a tu repositorio de preferencia.
+Para muchos es un desafio mantener un proyecto de esta manera, en especial al no contar con una interfaz gráfica al estilo Wordpress y menos si tenes que hacer cambios continuos a un artículo o subir varios artículos al día."/>
 <meta name="keywords" content=""/>
 <meta name="robots" content="noodp"/>
 <link rel="canonical" href="https://maurogabriel.com.ar/posts/hugo-setup-deploy-github-actions/" />
@@ -27,19 +27,19 @@ git status # On branch master # Your branch is ahead of &#39;origin/master&#39; 
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Your branch is ahead of Origin/Master by X Commits"/>
-<meta name="twitter:description" content="Imagina el siguiente escenario. Al momento de aplicar los cambios en el servidor de producción verificas el estado actual del repositorio local antes de traer los cambios hechos en tu repositorio en remoto y te das cuenta de que tu rama local se encuentra por delante de la rama ‘origin/master’ tal como se muestra a continuación.
-git status # On branch master # Your branch is ahead of &#39;origin/master&#39; by X commits."/>
+<meta name="twitter:title" content="Hugo: Setup and Deploy Site using GitHub Actions"/>
+<meta name="twitter:description" content="Si estas usando HUGO para generar tu blog, proyecto o sitio web seguro estás familiarizado con la línea de comando para construir y testear tu sitio en de forma local para luego subirlo con a tu repositorio de preferencia.
+Para muchos es un desafio mantener un proyecto de esta manera, en especial al no contar con una interfaz gráfica al estilo Wordpress y menos si tenes que hacer cambios continuos a un artículo o subir varios artículos al día."/>
 
 
 
-<meta property="og:title" content="Your branch is ahead of Origin/Master by X Commits" />
-<meta property="og:description" content="Imagina el siguiente escenario. Al momento de aplicar los cambios en el servidor de producción verificas el estado actual del repositorio local antes de traer los cambios hechos en tu repositorio en remoto y te das cuenta de que tu rama local se encuentra por delante de la rama ‘origin/master’ tal como se muestra a continuación.
-git status # On branch master # Your branch is ahead of &#39;origin/master&#39; by X commits." />
+<meta property="og:title" content="Hugo: Setup and Deploy Site using GitHub Actions" />
+<meta property="og:description" content="Si estas usando HUGO para generar tu blog, proyecto o sitio web seguro estás familiarizado con la línea de comando para construir y testear tu sitio en de forma local para luego subirlo con a tu repositorio de preferencia.
+Para muchos es un desafio mantener un proyecto de esta manera, en especial al no contar con una interfaz gráfica al estilo Wordpress y menos si tenes que hacer cambios continuos a un artículo o subir varios artículos al día." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://maurogabriel.com.ar/posts/hugo-setup-deploy-github-actions/" />
-<meta property="article:published_time" content="2020-07-12T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-07-12T00:00:00+00:00" /><meta property="og:site_name" content="Mauro Gabriel" />
+<meta property="article:published_time" content="2020-07-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-07-13T00:00:00+00:00" /><meta property="og:site_name" content="Mauro Gabriel" />
 
 
 
@@ -119,11 +119,11 @@ git status # On branch master # Your branch is ahead of &#39;origin/master&#39; 
   
 
   <div class="post">
-    <h1 class="post-title"><a href="https://maurogabriel.com.ar/posts/hugo-setup-deploy-github-actions/">Your branch is ahead of Origin/Master by X Commits</a></h1>
+    <h1 class="post-title"><a href="https://maurogabriel.com.ar/posts/hugo-setup-deploy-github-actions/">Hugo: Setup and Deploy Site using GitHub Actions</a></h1>
     <div class="post-meta">
       
         <span class="post-date">
-          2020-07-12
+          2020-07-13
         </span>
 
         
@@ -141,22 +141,73 @@ git status # On branch master # Your branch is ahead of &#39;origin/master&#39; 
 
     <div class="post-content">
       
-      <p>Imagina el siguiente escenario. Al momento de aplicar los cambios en el servidor de producción verificas el estado actual del repositorio local antes de traer los cambios hechos en tu repositorio en remoto y te das cuenta de que tu rama local se encuentra por delante de la rama ‘origin/master’ tal como se muestra a continuación.</p>
-<pre><code>git status
-# On branch master
-# Your branch is ahead of 'origin/master' by X commits.
-# (use &quot;git push&quot; to publish your local commits)
-nothing to commit, working directory clean
-</code></pre><p>Esto suele suceder debido a que hay cambios hechos en el repositorio del servidor de producción y no los haz enviado a tu repositorio remoto (GitHUB O BitBucket).</p>
-<p>Si deseas mantener esos cambios pero actualizar tu repositorio local utiliza el siguiente comando:</p>
-<pre><code>git fetch
-</code></pre><p>Recupera(fetch) objetos y referencias descargándolas desde un repositorio remoto</p>
-<p>Nota: Al intentar hacer de nuevo “push” si no envías los cambios a tu repositorio remoto persistirá el problema.</p>
-<p>Si lo que deseas es eliminar esos cambios y solo dejar los que vienen de tu repositorio remoto utiliza:</p>
-<pre><code>git fetch -p 
-</code></pre><p>Descripción:
-Antes de recuperar, remueve cualquier referencia de seguimiento que no se exista en el repositorio remoto</p>
-<p>Así al hacer de nuevo “git pull origin” master no tendremos de nuevo el mismo inconveniente incremental “Your branch is ahead of <code>origin/master</code> by X commits”.</p>
+      <p>Si estas usando HUGO para generar tu blog, proyecto o sitio web seguro estás familiarizado con la línea de comando para construir y testear tu sitio en de forma local para luego subirlo con a tu repositorio de preferencia.</p>
+<p>Para muchos es un desafio mantener un proyecto de esta manera, en especial al no contar con una interfaz gráfica al estilo Wordpress y menos si tenes que hacer cambios continuos a un artículo o subir varios artículos al día. Esto implicaría utilizar una gran cantidad de comandos y acciones que terminarían de cansarte.</p>
+<p>Felizmente ahora es posible automatizar gran parte de ese desarrollo con GitHub Actions. Veamos que es esta nueva herramienta y cómo podemos configurar un workflow para mantener nuestro sitio (en el ejmplo de este artículo vamos a usar GitHub Pages para alojar nuestro sitio web).</p>
+<p>GitHub Actions
+Esta herramienta es un CI/CD para automatizar, testear, construir y desplegar varios procesos en GitHub, definidos en un solo archivo <code>.yml</code>. Es el equivalente y la respuesta de GitHub al CI/CD de GitLab. Esto te permite ahorrar una enorme cantidad de tiempo y comandos que te permitirán obtener resultados casi instantáneos en tu sitio.</p>
+<p>Ahora veamos paso por paso como configurar nuestro sitio y definir el workflow en Actions.</p>
+<p>Paso 1: Vamos a crear un repositorio con nuestro nombre de usuario en la siguiente forma <em><strong>mauro/mauro.github.io</strong></em>, esto nos permitirá utilizar GitHub Pages para alojar nuestro sitio y definir mas adelante un dominio propio que apunte a esta dirección. Este repositorio servirá de host de nuestro sitio estático.</p>
+<p>Paso 2: Crear un repostorio donde subiremos el sitio que desarrollaremos con HUGO localmente. Puede ser algo asi: <em><strong>mauro/hugo.github.io</strong></em></p>
+<p>Paso 3: Ahora vamos a clonar con git el repositorio que creamos en <em><strong>mauro/hugo.github.io</strong></em> a una carpeta local. No te desesperes si te advierte la consola que no hay nada para clonar (por el momento).</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/mauro/hugo <span style="color:#f92672">&amp;&amp;</span> cd /Users/mauro/Documents/ <span style="color:#75715e">#En este caso se clonara el repositorio Hugo creando una carpeta local en /Users/mauro/Documents/Hugo</span>  
+</code></pre></div><p>Paso 4: En este paso hice lo siguiente. Como ya tenia creado un sitio con Hugo en otra carpeta, solo copie los archivos necesarios y los pegue aqui. De tal modo que esos serán los archivos que se clonarán al repositorio.</p>
+<p>Paso 5: Ahora con el tenido en la carpeta vamos a subir son git el contenido a nuestro repositorio que será nuestro espacio de desarrollo para nuestro sitio.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git init
+git remote add origin git@github.com:mauro/hugo
+git add --all
+git commit -m <span style="color:#e6db74">&#34;Commit Message&#34;</span>
+git push origin master
+</code></pre></div><p>Paso 6: Creamos un Token en GitHub. Esto nos permitirá dar las credenciales al workflow que vamos a cargar en Actions para automatizar nuestras tareas. Vamos a Settings&gt;Developer settings&gt;Personal access tokens y generamos un nuevo Token. Copiamos el código y lo pegamos en algún lado seguro pues lo necesitarás para este y otros trabajos más adelante.</p>
+<p>Paso 7: Ahora vamos al repositorio <a href="https://github.com/mauro/hugo">https://github.com/mauro/hugo</a> a Settings&gt;Secrets y agregamos un nuevo Secret. Aqui pegamos el token que copiamos.</p>
+<p>Paso 8: Ahora si creamos nuestro workflos en GiuHub Actions. En el repositorio <a href="https://github.com/mauro/hugo">https://github.com/mauro/hugo</a> vamos a Actions y creamos un nuevo workflow. Vamos a cargar un nuevo workflow que se alojará en la dirección <code>hugo/.github/workflows/main.yml</code>.</p>
+<p>Aqui vamos a pegar el sigueinte código:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">name: CI
+on: push
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+
+      - name: Update theme
+        <span style="color:#75715e"># (Optional)If you have the theme added as submodule, you can pull it and use the most updated version</span>
+        run: git submodule update --init --recursive
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: <span style="color:#e6db74">&#34;0.64.0&#34;</span>  
+
+      - name: Build
+        <span style="color:#75715e"># remove --minify tag if you do not need it</span>
+        <span style="color:#75715e"># docs: https://gohugo.io/hugo-pipes/minification/</span>
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: <span style="color:#e6db74">${</span>{ secrets.TOKEN <span style="color:#e6db74">}</span><span style="color:#f92672">}</span>
+          external_repository: mauro/mauro.github.io <span style="color:#75715e"># En este ejemplo sería así</span>
+          publish_dir: ./public
+          <span style="color:#75715e">#   keep_files: true</span>
+          user_name: &lt;username&gt; <span style="color:#75715e">#Solo tu usuario de GitHub</span>
+          user_email: &lt;username@email.com&gt; <span style="color:#75715e">#Tu correo electrónico</span>
+          publish_branch: master
+          cname: maurogabriel.com.ar <span style="color:#75715e">#Si no tenes un dominio podes comentar esta línea para deshabilitar la opcion.</span> 
+</code></pre></div><p>Grabamos este workflow y listo. GitHub ya sabrá que hacer cada vez que hagas un push de tu sitio en la consola.</p>
+<p>De manera breve, cada vez que hagas una modificación en tu sitio local (/Users/mauro/Documents/Hugo) y luego al hacer push al repositorio Actions ejecutará el workflow main.yml, procesará los cambios (cargando el sitio entero de nuevo) y cargará los archivos renderizados .html a la carpeta Public que se alojara en <em><strong>mauro/mauro.github.io</strong></em>.</p>
+<p>Podés probrar cargando un nuevo post en tu sitio local así</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd /Users/mauro/Documents/Hugo
+hugo new posts/hello.md
+<span style="color:#75715e">#Podes modificar el archivo hello.md y luego continuar</span>
+git init
+git add .
+git commit -m <span style="color:#e6db74">&#34;Nuevo Post&#34;</span>
+git push origin master
+</code></pre></div><p>Y eso es todo, ahora dejás que el workflow renderice todo y ya podés entrar a tu sitio, por ejemplo mauro.github.io para ver los resultados.</p>
+<p><a href="https://ruddra.com/hugo-deploy-static-page-using-github-actions/#step-3-push-hugo-site-code-in-github">Fuente</a></p>
 
     </div>
     
@@ -168,17 +219,10 @@ Antes de recuperar, remueve cualquier referencia de seguimiento que no se exista
           </div>
           <div class="pagination__buttons">
             
-              <span class="button previous">
-                <a href="https://maurogabriel.com.ar/posts/git-issues/">
-                  <span class="button__icon">←</span>
-                  <span class="button__text">Your branch is ahead of Origin/Master by X Commits</span>
-                </a>
-              </span>
-            
             
               <span class="button next">
-                <a href="https://maurogabriel.com.ar/posts/hello/">
-                  <span class="button__text">Hello World</span>
+                <a href="https://maurogabriel.com.ar/posts/introduction-to-hugo-templating/">
+                  <span class="button__text">Introduction to Hugo Templating</span>
                   <span class="button__icon">→</span>
                 </a>
               </span>
