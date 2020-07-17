@@ -1,10 +1,10 @@
-+++
-title = "Hello World"
-date = "2020-07-01"
-author = "Mauro"
-cover = "img/hello.jpg"
-description = "\"Hello, friend?\" That's lame. Maybe I should give you a name?"
-+++
+---
+title : "Hello Mauro"
+date : "2020-07-01"
+author : "Mauro"
+cover : "img/hello.jpg"
+description : "\"Hello, friend?\" That's lame. Maybe I should give you a name?"
+---
 
 > "Hello, friend?" That's lame.
 > Maybe I should give you a name...
@@ -16,6 +16,3 @@ description = "\"Hello, friend?\" That's lame. Maybe I should give you a name?"
 > I'm talking to an imaginary person.
 > But for now it's done
 > **— Mr. Robot S01E01**
-
-
-
