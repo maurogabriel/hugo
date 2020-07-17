@@ -49,6 +49,25 @@ You&amp;rsquo;re all that I work for
     </item>
     
     <item>
+      <title>Working with GitHub in VS Code</title>
+      <link>https://maurogabriel.com.ar/posts/github-on-vstusio-code/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurogabriel.com.ar/posts/github-on-vstusio-code/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://maurogabriel.com.ar/img/github-vscode.jpg&#34;/&gt;
+          
+        
+        
+        
+          Working with GitHub in VS Code
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>Hugo: Setup and Deploy Site using GitHub Actions</title>
       <link>https://maurogabriel.com.ar/posts/hugo-setup-deploy-github-actions/</link>
       <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
@@ -113,7 +132,7 @@ git status # On branch master # Your branch is ahead of &#39;origin/master&#39; 
     </item>
     
     <item>
-      <title>Hello World</title>
+      <title>Hello Mauro</title>
       <link>https://maurogabriel.com.ar/posts/hello/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
