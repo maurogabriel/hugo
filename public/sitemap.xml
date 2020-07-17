@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://maurogabriel.com.ar/posts/dont-let-me-down/</loc>
+    <lastmod>2020-07-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maurogabriel.com.ar/</loc>
+    <lastmod>2020-07-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maurogabriel.com.ar/tags/music/</loc>
+    <lastmod>2020-07-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maurogabriel.com.ar/posts/</loc>
+    <lastmod>2020-07-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maurogabriel.com.ar/tags/</loc>
+    <lastmod>2020-07-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://maurogabriel.com.ar/about/</loc>
     <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
@@ -14,16 +39,6 @@
   
   <url>
     <loc>https://maurogabriel.com.ar/posts/introduction-to-hugo-templating/</loc>
-    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://maurogabriel.com.ar/</loc>
-    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://maurogabriel.com.ar/posts/</loc>
     <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,10 +58,6 @@
   
   <url>
     <loc>https://maurogabriel.com.ar/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://maurogabriel.com.ar/tags/</loc>
   </url>
   
 </urlset>
