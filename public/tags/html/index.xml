@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html on Mauro Gabriel</title>
+    
+    
+    
+    <link>https://maurogabriel.com.ar/tags/html/</link>
+    <description>Recent content in Html on Mauro Gabriel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>@ 2020 Mauro Gabriel</copyright>
+    <lastBuildDate>Wed, 15 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://maurogabriel.com.ar/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Simple Shortcode to Insert Raw HTML in Hugo</title>
+      <link>https://maurogabriel.com.ar/posts/simple-shortcode-to-insert-html-block-on-hugo/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurogabriel.com.ar/posts/simple-shortcode-to-insert-html-block-on-hugo/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          I love the simplicity of creating new content using markdown in Hugo. But sometimes, markdown is not enough – you might want to do a one-off extra-fancy thing with raw html.
+Surprisingly, Hugo doesn’t seem to have a good way to let you do this in a content file. Here is how to create your own one-line custom shortcode to make that possible.
+Add a shortcode template to your site, in layouts/shortcodes/rawhtml.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

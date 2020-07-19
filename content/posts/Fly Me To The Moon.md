@@ -1,5 +1,5 @@
 ---
-title : "Flye Me To The Moon (In Other Words)"
+title : "Fly Me To The Moon (In Other Words)"
 date : "2020-07-18"
 author : "Mauro"
 tags : [ "music", "lyrics", ]

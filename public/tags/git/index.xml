@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on Mauro Gabriel</title>
+    
+    
+    
+    <link>https://maurogabriel.com.ar/tags/git/</link>
+    <description>Recent content in git on Mauro Gabriel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>@ 2020 Mauro Gabriel</copyright>
+    <lastBuildDate>Sun, 12 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://maurogabriel.com.ar/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Your branch is ahead of Origin/Master by X Commits</title>
+      <link>https://maurogabriel.com.ar/posts/git-issues/</link>
+      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurogabriel.com.ar/posts/git-issues/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Imagina el siguiente escenario. Al momento de aplicar los cambios en el servidor de producción verificas el estado actual del repositorio local antes de traer los cambios hechos en tu repositorio en remoto y te das cuenta de que tu rama local se encuentra por delante de la rama ‘origin/master’ tal como se muestra a continuación.
+git status # On branch master # Your branch is ahead of &#39;origin/master&#39; by X commits.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

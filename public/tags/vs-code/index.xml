@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VS Code on Mauro Gabriel</title>
+    
+    
+    
+    <link>https://maurogabriel.com.ar/tags/vs-code/</link>
+    <description>Recent content in VS Code on Mauro Gabriel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>@ 2020 Mauro Gabriel</copyright>
+    <lastBuildDate>Fri, 17 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://maurogabriel.com.ar/tags/vs-code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Working with GitHub in VS Code</title>
+      <link>https://maurogabriel.com.ar/posts/github-on-vstusio-code/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurogabriel.com.ar/posts/github-on-vstusio-code/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://maurogabriel.com.ar/img/github-vscode.jpg&#34;/&gt;
+          
+        
+        
+        
+          Working with GitHub in VS Code
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

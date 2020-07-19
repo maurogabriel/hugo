@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Mauro Gabriel</title>
+    
+    
+    
+    <link>https://maurogabriel.com.ar/tags/hugo/</link>
+    <description>Recent content in Hugo on Mauro Gabriel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>@ 2020 Mauro Gabriel</copyright>
+    <lastBuildDate>Fri, 17 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://maurogabriel.com.ar/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Working with GitHub in VS Code</title>
+      <link>https://maurogabriel.com.ar/posts/github-on-vstusio-code/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurogabriel.com.ar/posts/github-on-vstusio-code/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://maurogabriel.com.ar/img/github-vscode.jpg&#34;/&gt;
+          
+        
+        
+        
+          Working with GitHub in VS Code
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Simple Shortcode to Insert Raw HTML in Hugo</title>
+      <link>https://maurogabriel.com.ar/posts/simple-shortcode-to-insert-html-block-on-hugo/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurogabriel.com.ar/posts/simple-shortcode-to-insert-html-block-on-hugo/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          I love the simplicity of creating new content using markdown in Hugo. But sometimes, markdown is not enough – you might want to do a one-off extra-fancy thing with raw html.
+Surprisingly, Hugo doesn’t seem to have a good way to let you do this in a content file. Here is how to create your own one-line custom shortcode to make that possible.
+Add a shortcode template to your site, in layouts/shortcodes/rawhtml.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Hugo: Setup and Deploy Site using GitHub Actions</title>
+      <link>https://maurogabriel.com.ar/posts/hugo-setup-deploy-github-actions/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurogabriel.com.ar/posts/hugo-setup-deploy-github-actions/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Si estas usando HUGO para generar tu blog, proyecto o sitio web seguro estás familiarizado con la línea de comando para construir y testear tu sitio en de forma local para luego subirlo con a tu repositorio de preferencia.
+Para muchos es un desafio mantener un proyecto de esta manera, en especial al no contar con una interfaz gráfica al estilo Wordpress y menos si tenes que hacer cambios continuos a un artículo o subir varios artículos al día.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Introduction to Hugo Templating</title>
+      <link>https://maurogabriel.com.ar/posts/introduction-to-hugo-templating/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurogabriel.com.ar/posts/introduction-to-hugo-templating/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Hugo uses Go’s ’html/template’ and ‘text/template’ libraries as the basis for the templating.
+ The following is only a primer on Go Templates. For an in-depth look into Go Templates, check the official Go docs.
+ Go Templates provide an extremely simple template language that adheres to the belief that only the most basic of logic belongs in the template or view layer.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -10,15 +10,67 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>@ 2020 Mauro Gabriel</copyright>
-    <lastBuildDate>Fri, 17 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://maurogabriel.com.ar/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Fly Me To The Moon (In Other Words)</title>
+      <link>https://maurogabriel.com.ar/posts/fly-me-to-the-moon/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurogabriel.com.ar/posts/fly-me-to-the-moon/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          by Bobby Womack  Fly me
+Fly me to the moon
+And let me play among the stars
+Let me see
+Oh I wanna see what spring is like
+On a-Jupiter
+On a-Jupiter and Mars
+In other words, hold my hand
+In other words, darling, i love ya
+Oh, fill
+Fill my heart with song
+I wanna sing for you darling
+For ever more baby
+You, are all that I long for
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Working with GitHub in VS Code</title>
+      <link>https://maurogabriel.com.ar/posts/github-on-vstusio-code/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurogabriel.com.ar/posts/github-on-vstusio-code/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://maurogabriel.com.ar/img/github-vscode.jpg&#34;/&gt;
+          
+        
+        
+        
+          Working with GitHub in VS Code
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>Don’t Let Me Down</title>
       <link>https://maurogabriel.com.ar/posts/dont-let-me-down/</link>
-      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://maurogabriel.com.ar/posts/dont-let-me-down/</guid>
       <description>
@@ -49,30 +101,11 @@ You&amp;rsquo;re all that I work for
     </item>
     
     <item>
-      <title>Working with GitHub in VS Code</title>
-      <link>https://maurogabriel.com.ar/posts/github-on-vstusio-code/</link>
-      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <title>Simple Shortcode to Insert Raw HTML in Hugo</title>
+      <link>https://maurogabriel.com.ar/posts/simple-shortcode-to-insert-html-block-on-hugo/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://maurogabriel.com.ar/posts/github-on-vstusio-code/</guid>
-      <description>
-        
-          &lt;img src=&#34;https://maurogabriel.com.ar/img/github-vscode.jpg&#34;/&gt;
-          
-        
-        
-        
-          Working with GitHub in VS Code
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://maurogabriel.com.ar/about/</link>
-      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurogabriel.com.ar/about/</guid>
+      <guid>https://maurogabriel.com.ar/posts/simple-shortcode-to-insert-html-block-on-hugo/</guid>
       <description>
         
           
@@ -81,9 +114,9 @@ You&amp;rsquo;re all that I work for
         
         
         
-          Hi there My name is Radek and I&amp;rsquo;m the author of this theme. I made it to help you present your ideas easier.
-We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
-This theme is pretty basic and covers all of the essentials. All you have to do is start typing!
+          I love the simplicity of creating new content using markdown in Hugo. But sometimes, markdown is not enough – you might want to do a one-off extra-fancy thing with raw html.
+Surprisingly, Hugo doesn’t seem to have a good way to let you do this in a content file. Here is how to create your own one-line custom shortcode to make that possible.
+Add a shortcode template to your site, in layouts/shortcodes/rawhtml.
           
         
         </description>
@@ -154,19 +187,23 @@ git status # On branch master # Your branch is ahead of &#39;origin/master&#39; 
     </item>
     
     <item>
-      <title>Hello Mauro</title>
-      <link>https://maurogabriel.com.ar/posts/hello/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <title>About</title>
+      <link>https://maurogabriel.com.ar/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://maurogabriel.com.ar/posts/hello/</guid>
+      <guid>https://maurogabriel.com.ar/about/</guid>
       <description>
         
-          &lt;img src=&#34;https://maurogabriel.com.ar/img/hello.jpg&#34;/&gt;
+          
+          
           
         
         
         
-          &#34;Hello, friend?&#34; That&#39;s lame. Maybe I should give you a name?
+          Me My name is Mauro Gabriel and I&amp;rsquo;m the author of this blog. I made it to share somne of my ideas.
+We all know how hard is to start something on the web, especially these days.
+So this site is pretty basic and covers all of my essentials.
+So, there you have it&amp;hellip; enjoy!
           
         
         </description>

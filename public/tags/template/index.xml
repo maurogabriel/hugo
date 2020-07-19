@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Template on Mauro Gabriel</title>
+    
+    
+    
+    <link>https://maurogabriel.com.ar/tags/template/</link>
+    <description>Recent content in Template on Mauro Gabriel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>@ 2020 Mauro Gabriel</copyright>
+    <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://maurogabriel.com.ar/tags/template/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to Hugo Templating</title>
+      <link>https://maurogabriel.com.ar/posts/introduction-to-hugo-templating/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurogabriel.com.ar/posts/introduction-to-hugo-templating/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Hugo uses Go’s ’html/template’ and ‘text/template’ libraries as the basis for the templating.
+ The following is only a primer on Go Templates. For an in-depth look into Go Templates, check the official Go docs.
+ Go Templates provide an extremely simple template language that adheres to the belief that only the most basic of logic belongs in the template or view layer.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
