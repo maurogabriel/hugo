@@ -2,6 +2,7 @@
 title : "Working with GitHub in VS Code"
 date : "2020-07-17"
 author : "Mauro"
+tags: [ "Hugo", "VS Code", ]
 cover : "img/github-vscode.jpg"
 description : "Working with GitHub in VS Code"
 ---
