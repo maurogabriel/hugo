@@ -1,8 +1,9 @@
-+++
-title = "Your branch is ahead of Origin/Master by X Commits"
-date = "2020-07-12"
-author = "Mauro"
-+++
+---
+title : "Your branch is ahead of Origin/Master by X Commits"
+date : "2020-07-12"
+author : "Mauro"
+tags : [ "git", ]
+---
 
 Imagina el siguiente escenario. Al momento de aplicar los cambios en el servidor de producción verificas el estado actual del repositorio local antes de traer los cambios hechos en tu repositorio en remoto y te das cuenta de que tu rama local se encuentra por delante de la rama ‘origin/master’ tal como se muestra a continuación.
 

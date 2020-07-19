@@ -1,8 +1,7 @@
-+++
-title = "About"
-date = "2020-07-13"
-author = "Mauro"
-+++
+---
+title : "About"
+author : "Mauro"
+---
 
 # Hi there
 

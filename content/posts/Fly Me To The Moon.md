@@ -1,9 +1,8 @@
-
 ---
-title: "Flye Me To The Moon (In Other Words)"
-date: "2020-07-18"
-author: "Mauro"
-tags: [ "music", ]
+title : "Flye Me To The Moon (In Other Words)"
+date : "2020-07-18"
+author : "Mauro"
+tags : [ "music", "lyrics", ]
 ---
 
 ### by Bobby Womack

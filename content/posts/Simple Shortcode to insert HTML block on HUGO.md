@@ -2,7 +2,7 @@
 title: "Simple Shortcode to Insert Raw HTML in Hugo"
 date: "2020-07-15"
 author: "Mauro"
-tags: [ "hugo", ]
+tags: [ "Hugo", "Html", ]
 ---
 
 I love the simplicity of creating new content using markdown in Hugo. But sometimes, markdown is not enough – you might want to do a one-off extra-fancy thing with raw html.

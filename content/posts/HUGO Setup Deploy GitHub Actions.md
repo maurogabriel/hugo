@@ -2,6 +2,7 @@
 title: "Hugo: Setup and Deploy Site using GitHub Actions"
 date: "2020-07-13"
 author: "Mauro"
+tags: [ "Hugo", "GitHub", ]
 ---
 
 Si estas usando HUGO para generar tu blog, proyecto o sitio web seguro estás familiarizado con la línea de comando para construir y testear tu sitio en de forma local para luego subirlo con a tu repositorio de preferencia.

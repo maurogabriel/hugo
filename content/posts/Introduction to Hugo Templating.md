@@ -1,6 +1,8 @@
 ---
 title: "Introduction to Hugo Templating"
 date: 2020-07-13
+author: "Mauro"
+tags: [ "Hugo", "Template", ]
 ---
 
 Hugo uses Go’s ’html/template’ and ‘text/template’ libraries as the basis for the templating.
