@@ -7,7 +7,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="description" content="Imagina el siguiente escenario. Al momento de aplicar los cambios en el servidor de producción verificas el estado actual del repositorio local antes de traer los cambios hechos en tu repositorio en remoto y te das cuenta de que tu rama local se encuentra por delante de la rama ‘origin/master’ tal como se muestra a continuación.
-git status # On branch master # Your branch is ahead of &#39;origin/master&#39; by X commits."/>
+git status # On branch master # Your branch is ahead of &amp;#39;origin/master&amp;#39; by X commits."/>
 <meta name="keywords" content=""/>
 <meta name="robots" content="noodp"/>
 <link rel="canonical" href="https://maurogabriel.com.ar/posts/git-issues/" />
@@ -148,19 +148,19 @@ git status # On branch master # Your branch is ahead of &#39;origin/master&#39; 
     <div class="post-content">
       
       <p>Imagina el siguiente escenario. Al momento de aplicar los cambios en el servidor de producción verificas el estado actual del repositorio local antes de traer los cambios hechos en tu repositorio en remoto y te das cuenta de que tu rama local se encuentra por delante de la rama ‘origin/master’ tal como se muestra a continuación.</p>
-<pre><code>git status
-# On branch master
-# Your branch is ahead of 'origin/master' by X commits.
-# (use &quot;git push&quot; to publish your local commits)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git status
+<span style="color:#75715e"># On branch master</span>
+<span style="color:#75715e"># Your branch is ahead of &#39;origin/master&#39; by X commits.</span>
+<span style="color:#75715e"># (use &#34;git push&#34; to publish your local commits)</span>
 nothing to commit, working directory clean
-</code></pre><p>Esto suele suceder debido a que hay cambios hechos en el repositorio del servidor de producción y no los haz enviado a tu repositorio remoto (GitHUB O BitBucket).</p>
+</code></pre></div><p>Esto suele suceder debido a que hay cambios hechos en el repositorio del servidor de producción y no los haz enviado a tu repositorio remoto (GitHUB O BitBucket).</p>
 <p>Si deseas mantener esos cambios pero actualizar tu repositorio local utiliza el siguiente comando:</p>
-<pre><code>git fetch
-</code></pre><p>Recupera(fetch) objetos y referencias descargándolas desde un repositorio remoto</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git fetch
+</code></pre></div><p>Recupera(fetch) objetos y referencias descargándolas desde un repositorio remoto</p>
 <p>Nota: Al intentar hacer de nuevo “push” si no envías los cambios a tu repositorio remoto persistirá el problema.</p>
 <p>Si lo que deseas es eliminar esos cambios y solo dejar los que vienen de tu repositorio remoto utiliza:</p>
-<pre><code>git fetch -p 
-</code></pre><p>Descripción:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git fetch -p 
+</code></pre></div><p>Descripción:
 Antes de recuperar, remueve cualquier referencia de seguimiento que no se exista en el repositorio remoto</p>
 <p>Así al hacer de nuevo “git pull origin” master no tendremos de nuevo el mismo inconveniente incremental “Your branch is ahead of <code>origin/master</code> by X commits”.</p>
 

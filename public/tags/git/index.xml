@@ -30,7 +30,7 @@
         
         
           Imagina el siguiente escenario. Al momento de aplicar los cambios en el servidor de producción verificas el estado actual del repositorio local antes de traer los cambios hechos en tu repositorio en remoto y te das cuenta de que tu rama local se encuentra por delante de la rama ‘origin/master’ tal como se muestra a continuación.
-git status # On branch master # Your branch is ahead of &#39;origin/master&#39; by X commits.
+git status # On branch master # Your branch is ahead of &amp;#39;origin/master&amp;#39; by X commits.
           
         
         </description>

@@ -7,7 +7,7 @@ tags : [ "git", ]
 
 Imagina el siguiente escenario. Al momento de aplicar los cambios en el servidor de producción verificas el estado actual del repositorio local antes de traer los cambios hechos en tu repositorio en remoto y te das cuenta de que tu rama local se encuentra por delante de la rama ‘origin/master’ tal como se muestra a continuación.
 
-```
+```bash
 git status
 # On branch master
 # Your branch is ahead of 'origin/master' by X commits.
@@ -19,17 +19,17 @@ Esto suele suceder debido a que hay cambios hechos en el repositorio del servido
 
 Si deseas mantener esos cambios pero actualizar tu repositorio local utiliza el siguiente comando:
 
-```
+```bash
 git fetch
 ```
 
 Recupera(fetch) objetos y referencias descargándolas desde un repositorio remoto
 
-Nota: Al intentar hacer de nuevo “push” si no envías los cambios a tu repositorio remoto persistirá el problema.
+Nota: Al intentar hacer de nuevo `push` si no envías los cambios a tu repositorio remoto persistirá el problema.
 
 Si lo que deseas es eliminar esos cambios y solo dejar los que vienen de tu repositorio remoto utiliza:
 
-```
+```bash
 git fetch -p 
 ```
 
