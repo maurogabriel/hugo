@@ -10,25 +10,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>@ 2020 Mauro Gabriel</copyright>
-    <lastBuildDate>Sun, 19 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://maurogabriel.com.ar/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Sampler</title>
-      <link>https://maurogabriel.com.ar/posts/sample/</link>
-      <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
+      <title>Juxtaposed with U</title>
+      <link>https://maurogabriel.com.ar/posts/juxtaposed-with-u/</link>
+      <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://maurogabriel.com.ar/posts/sample/</guid>
+      <guid>https://maurogabriel.com.ar/posts/juxtaposed-with-u/</guid>
       <description>
         
-          &lt;img src=&#34;https://maurogabriel.com.ar/img/github-vscode.jpg&#34;/&gt;
+          
+          
           
         
         
         
-          Working with GitHub in VS Code
+          Super Furry Animals  [Verse 1]
+It&amp;rsquo;s easy when you know how
+To get along without Biff! Bang! Pow!
+And if I see you&amp;rsquo;re fed up
+I&amp;rsquo;ll stop and give you a leg up
+Overpriced unreal estate, surreal estate
+The highest price they&amp;rsquo;ve hit to date
+Creating new divides and tension
+[Chorus]
+You&amp;rsquo;ve got to tolerate
+All those people that you hate
+I&amp;rsquo;m not in love with you
+You&amp;rsquo;ve got to tolerate
           
         
         </description>
@@ -68,25 +81,6 @@ You, are all that I long for
     </item>
     
     <item>
-      <title>Working with GitHub in VS Code</title>
-      <link>https://maurogabriel.com.ar/posts/github-on-vstusio-code/</link>
-      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurogabriel.com.ar/posts/github-on-vstusio-code/</guid>
-      <description>
-        
-          &lt;img src=&#34;https://maurogabriel.com.ar/img/github-vscode.jpg&#34;/&gt;
-          
-        
-        
-        
-          Working with GitHub in VS Code
-          
-        
-        </description>
-    </item>
-    
-    <item>
       <title>Don’t Let Me Down</title>
       <link>https://maurogabriel.com.ar/posts/dont-let-me-down/</link>
       <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
@@ -114,92 +108,6 @@ Don&amp;rsquo;t let me down
 What do I have to give
 Until you let me live?
 You&amp;rsquo;re all that I work for
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Simple Shortcode to Insert Raw HTML in Hugo</title>
-      <link>https://maurogabriel.com.ar/posts/simple-shortcode-to-insert-html-block-on-hugo/</link>
-      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurogabriel.com.ar/posts/simple-shortcode-to-insert-html-block-on-hugo/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          I love the simplicity of creating new content using markdown in Hugo. But sometimes, markdown is not enough – you might want to do a one-off extra-fancy thing with raw html.
-Surprisingly, Hugo doesn’t seem to have a good way to let you do this in a content file. Here is how to create your own one-line custom shortcode to make that possible.
-Add a shortcode template to your site, in layouts/shortcodes/rawhtml.
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Hugo: Setup and Deploy Site using GitHub Actions</title>
-      <link>https://maurogabriel.com.ar/posts/hugo-setup-deploy-github-actions/</link>
-      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurogabriel.com.ar/posts/hugo-setup-deploy-github-actions/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Si estas usando HUGO para generar tu blog, proyecto o sitio web seguro estás familiarizado con la línea de comando para construir y testear tu sitio en de forma local para luego subirlo con a tu repositorio de preferencia.
-Para muchos es un desafio mantener un proyecto de esta manera, en especial al no contar con una interfaz gráfica al estilo Wordpress y menos si tenes que hacer cambios continuos a un artículo o subir varios artículos al día.
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Introduction to Hugo Templating</title>
-      <link>https://maurogabriel.com.ar/posts/introduction-to-hugo-templating/</link>
-      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurogabriel.com.ar/posts/introduction-to-hugo-templating/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Hugo uses Go’s ’html/template’ and ‘text/template’ libraries as the basis for the templating.
- The following is only a primer on Go Templates. For an in-depth look into Go Templates, check the official Go docs.
- Go Templates provide an extremely simple template language that adheres to the belief that only the most basic of logic belongs in the template or view layer.
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Your branch is ahead of Origin/Master by X Commits</title>
-      <link>https://maurogabriel.com.ar/posts/git-issues/</link>
-      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurogabriel.com.ar/posts/git-issues/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Imagina el siguiente escenario. Al momento de aplicar los cambios en el servidor de producción verificas el estado actual del repositorio local antes de traer los cambios hechos en tu repositorio en remoto y te das cuenta de que tu rama local se encuentra por delante de la rama ‘origin/master’ tal como se muestra a continuación.
-git status # On branch master # Your branch is ahead of &amp;#39;origin/master&amp;#39; by X commits.
           
         
         </description>
